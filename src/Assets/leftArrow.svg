@@ -1,0 +1,18 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icons / Oval + Icon Copy" opacity="1">
+<circle id="canvas oval" r="16" transform="matrix(-1 0 0 1 16 16)" fill="white"/>
+<mask id="mask0_0_189" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32">
+<circle id="canvas oval_2" r="16" transform="matrix(-1 0 0 1 16 16)" fill="white"/>
+</mask>
+<g mask="url(#mask0_0_189)">
+<g id="icon">
+<path id="fill" fill-rule="evenodd" clip-rule="evenodd" d="M13.1313 15.2L15.7657 12.5656C16.0781 12.2532 16.0781 11.7467 15.7657 11.4343C15.4532 11.1218 14.9467 11.1218 14.6343 11.4343L10.6343 15.4343C10.3219 15.7467 10.3219 16.2532 10.6343 16.5656L14.6343 20.5656C14.9467 20.8781 15.4532 20.8781 15.7657 20.5656C16.0781 20.2532 16.0781 19.7467 15.7657 19.4343L13.1313 16.8H20.8C21.2418 16.8 21.6 16.4418 21.6 16C21.6 15.5581 21.2418 15.2 20.8 15.2H13.1313Z" fill="#0B24FB"/>
+<mask id="mask1_0_189" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="10" y="11" width="12" height="10">
+<path id="fill_2" fill-rule="evenodd" clip-rule="evenodd" d="M13.1313 15.2L15.7657 12.5656C16.0781 12.2532 16.0781 11.7467 15.7657 11.4343C15.4532 11.1218 14.9467 11.1218 14.6343 11.4343L10.6343 15.4343C10.3219 15.7467 10.3219 16.2532 10.6343 16.5656L14.6343 20.5656C14.9467 20.8781 15.4532 20.8781 15.7657 20.5656C16.0781 20.2532 16.0781 19.7467 15.7657 19.4343L13.1313 16.8H20.8C21.2418 16.8 21.6 16.4418 21.6 16C21.6 15.5581 21.2418 15.2 20.8 15.2H13.1313Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_0_189)">
+</g>
+</g>
+</g>
+</g>
+</svg>

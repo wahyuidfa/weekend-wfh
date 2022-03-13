@@ -3,6 +3,7 @@ import axios from 'axios';
 import styles from './Testimonial.module.css';
 import ItemsCarousel from 'react-items-carousel';
 import arrow from '../../Assets/arrow.svg'
+import leftArrow from '../../Assets/leftArrow.svg';
 
 
 function Testimonial() {
@@ -11,7 +12,17 @@ function Testimonial() {
     const chevronWidth = 40;
 
 
+    const buttonRight = () => {
+        return (
+            <button className={styles.button} style={{cursor:'pointer', borderRadius:'40px', alignItems:"center", display:'flex', border:'none'}}><img src={arrow} alt='arrow'/></button>
+        )
+    }
 
+    const buttonLeft = () => {
+        return (
+            <button className={styles.button} style={{cursor:'pointer', borderRadius:'40px', alignItems:"center", display:'flex', border:'none'}}><img src={leftArrow} alt='arrow'/></button>
+        )
+    }
 
     useEffect(() => {
         axios.get('https://wknd-take-home-challenge-api.herokuapp.com/testimonial')
@@ -30,8 +41,8 @@ function Testimonial() {
                     activeItemIndex={activeItemIndex}
                     numberOfCards={2}
                     gutter={20}
-                    leftChevron={<button>{'<'}</button>}
-                    rightChevron={<button>{'>'}</button>}
+                    leftChevron={buttonLeft()}
+                    rightChevron={buttonRight()}
                     outsideChevron
                     chevronWidth={chevronWidth}
                 >
