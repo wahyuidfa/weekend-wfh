@@ -1,0 +1,60 @@
+.helpsnTipsContainer {
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 22px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.helpsnTipsBox {
+    width: 311px;
+    height: 176px;
+    display: flex;
+}
+
+.imgHelp {
+    width: 311px;
+    height: 176px;
+}
+
+.descContainer {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* opacity: 0.5; */
+    width: 311px;
+    height: 72px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    position: absolute;
+    margin-top: 110px;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.descContainer p {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 700;
+   
+}
+
+.button {
+    margin-right: 10px;
+    /* opacity: 1; */
+    border-radius: 30px;
+    border: none;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 480px) {
+    .helpsnTipsContainer {
+        width:100%;
+        flex-wrap: wrap;
+    }
+}
+
+

@@ -1,0 +1,459 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300&display=swap");
+
+.mainContainer {
+    background-color: black;
+    /* z-index: -1; */
+    /* height: 100vh; */
+    font-family: "Work Sans", sans-serif;
+    position: relative;
+    margin-top: -20px;
+}
+
+.upperContainer {
+    background-color: #eebece;
+    /* background-image: */
+    position: relative;
+    /* z-index: 2; */
+    height: auto;
+}
+
+.upperSection {
+    width: 100%;
+    height: 721px;
+}
+
+.wave {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.bgblue {
+    position: absolute;
+    width: 40%;
+    margin-left: 20%;
+}
+
+.welcomeBoard {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    /* margin-top: 10%; */
+    padding-top: 40px;
+}
+
+.welcomeBoard h1 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 800;
+    padding-top: 70px;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
+.welcomeBoard p {
+    font-size: 21px;
+    color: #fff;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+
+.ovalBlue {
+    display: flex;
+    width: 132px;
+    height: 132px;
+    margin-left: 25%;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    padding-right: 150px;
+}
+
+.astroContainer {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+.astro {
+    /* position: absolute; */
+    /* padding-top: 20%; */
+    /* width: 100%; */
+
+    margin-left: 20px;
+}
+.astroImage {
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.astroImage img {
+    width: 90%;
+    /* height: auto; */
+    /* padding-right: 80px; */
+    /* padding-left: -50px; */
+}
+
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 721px;
+}
+
+.imgSection2bg {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    height: auto;
+}
+
+.path2 {
+    display: flex;
+    position: absolute;
+    justify-content: left;
+    margin-left: 900px;
+    margin-top: -300px;
+}
+
+.astroSection2 {
+    display: flex;
+    position: absolute;
+    width: 95px;
+    transform: rotate(270deg);
+    padding-left: 12px;
+    padding-right: 50px;
+    /* padding-bottom: 0px  ; */
+}
+
+.rightWave {
+    display: flex;
+    /* justify-content: left; */
+}
+
+.descriptionText {
+    width: 619px;
+    height: 160px;
+    position: relative;
+    /* display:flex; */
+    font-size: 21px;
+    /* margin-left: 28%; */
+    text-align: right;
+    margin-top: -30%;
+    font-weight: 500;
+}
+
+.astroButton {
+    position: absolute;
+    margin-right: 40px;
+    margin-top: -100px;
+    width: 200px;
+    height: 58px;
+    border-radius: 29px;
+    border: none;
+    background-color: #fff;
+    /* z-index: 1000   ;     */
+    cursor: pointer;
+}
+
+.quotesBy {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: 235px;
+    margin-top: 20px;
+    font-size: 21px;
+    font-weight: 600;
+    color: #fff;
+    font-style: italic;
+    width: 100%;
+}
+
+.lowerContainer {
+    display: flex;
+    justify-content: center;
+    /* margin-top: -20px; */
+    background-color: black;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.lowerSection {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    margin-top: -120px;
+    z-index: 1;
+}
+.lowerSectionHeading {
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+}
+
+.testiContainer {
+    width: 50%;
+    display: flex;
+    /* flex-direction: column; */
+    margin-top: 3%;
+}
+
+.lowerSection2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    margin-top: 100px;
+    z-index: 1;
+}
+
+.ovalBlue2 {
+    display: flex;
+    position: absolute;
+    width: 89px;
+    height: 89px;
+    margin-left: -750px;
+    margin-top: -50px;
+}
+.lowerSectionHeading2 {
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+}
+
+.povContainer {
+    width: 47%;
+    display: flex;
+    /* flex-direction: column; */
+    margin-top: 3%;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.lowerSectionHeading3 {
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+}
+
+.resourceContainer {
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    margin-top: 3%;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.lowerSection3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    margin-bottom: 100px;
+    /* margin-top: 100px; */
+    z-index: 1;
+    background-color: black;
+}
+
+.lowerSectionHeading4 {
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    z-index: -2;
+}
+
+.path {
+    display: flex;
+    position: absolute;
+    margin-right: -1000px;
+}
+.helpsContainer {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 3%;
+    color: #fff;
+    z-index: 1;
+}
+
+.yourSetWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.lowerSectionHeading5 {
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    /* z-index: -2; */
+}
+
+.yourSetContainer {
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    margin-top: 3%;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.path4 {
+    display: flex;
+    position: absolute;
+    margin-left: -1050px;
+    margin-top: 32px;
+    width: 215px;
+}
+
+.bitmap4 {
+    display: flex;
+    position: absolute;
+    margin-left: -1050px;
+    /* margin-top: 32px; */
+    width: 137px;
+    transform: rotate(180deg);
+    padding-left: 30px;
+    /* margin-bottom: -30px; */
+}
+
+@media (max-width: 480px) {
+    .mainContainer {
+        width: 100%;
+    }
+
+    .upperContainer {
+        width: 100%;
+    }
+
+    .upperSection {
+        width: 100%;
+    }
+
+    .bgblue {
+        width: 80%;
+        display: flex;
+        margin: 0;
+        padding-right: 100px;
+        /* margin-top: 40px; */
+        margin-left: 0;
+    }
+    .ovalBlue {
+        display: flex;
+        width: 132px;
+        height: 132px;
+        margin-left: -15%;
+       
+    }
+
+    .descriptionText {
+        padding-right:  20px;
+        padding-left:  20px;
+        margin-bottom: 100px;
+    }
+    .path2 {
+        display: none;
+    }
+    .astroContainer {
+        margin-top: 30px;
+    }
+    .quotesBy {
+        margin-left: 110px;
+    }
+
+    .lowerSection {
+        margin-top: -80px;
+        justify-content: left;
+        width : 100%;
+    }
+
+    .lowerSectionHeading {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .testiContainer {
+        width: 100%;
+        /* margin-top: 0; */
+    }
+
+    .lowerSectionHeading2 {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .povContainer {
+        width: 100%;
+        text-align: left;
+        padding: 10px 20px
+        /* margin-top: 0; */
+    }
+
+    .lowerSectionHeading3 {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .resourceContainer {
+        width: 100%;
+        text-align: left;
+        padding: 10px 20px
+        /* margin-top: 0; */
+    }
+
+    .helpsContainer {
+        width: 100%;
+    }
+
+    .lowerSectionHeading4 {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .lowerSectionHeading5 {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .yourSetContainer {
+        width: 100%;
+        text-align: left;
+        padding: 10px 20px
+        /* margin-top: 0; */
+    }
+
+    .path {
+        display: none;
+    }
+
+    .path2 {
+        display: none;
+    }
+
+    .ovalBlue2 {
+        display: none;
+    }
+}

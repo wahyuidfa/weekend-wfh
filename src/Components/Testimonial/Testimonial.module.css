@@ -1,0 +1,27 @@
+.testiContainer {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.listTesti {
+    height: 160px;
+    background-color: #fff;
+}
+
+.listTesti h2 {
+    font-size: 32px;
+    font-weight: 900;
+    color: #000;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.listTesti p {
+    font-size: 12px;
+    padding:0 20px;
+}
+
